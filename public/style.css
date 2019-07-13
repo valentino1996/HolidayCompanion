@@ -14,9 +14,6 @@ body{
 .fushat{
     padding: 40px;
 }
-.fushat:hover{
-    background-color: rgba(0, 0, 0, 0.05);
-}
 
 a{
     margin:auto;

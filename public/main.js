@@ -25,7 +25,7 @@ $(document).ready(function(){
                     if(i%3==0||i==0) str +=`<div class="row container-fluid">`;
 
                     str += `<div class="col-xl-3 col-lg-6 col-md col-sm col mr-auto fushat container"><a href="` + data[emri]["links"][i] + `">
-                            <img class="images" src="` + data[emri]["img"][i] + `">
+                            <img class="images img-responsive img-fluid" src="` + data[emri]["img"][i] + `">
                             <h3 class="title">` + data[emri]["titulli"][i] + `</h3>
                             <p class="description">` + data[emri]["pershkrimi"][i] + `</p>
                             </a></div>`;

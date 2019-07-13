@@ -1,0 +1,53 @@
+body{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/leaves-pattern.png);
+}
+
+.images{
+    width:384px;
+    height:216px;
+}
+
+.fushat{
+    padding: 40px;
+}
+
+a{
+    margin:auto;
+}
+
+h2{
+    text-align: center;
+}
+
+.category-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image{
+    position:relative;
+}
+
+.image #front-image{
+    width:100%;
+    height:100%;
+}
+
+.image h1{
+    position:absolute;
+    width:100%;
+    color:Azure;
+    line-height:200px;
+    margin:0;
+}
+
+h1{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
